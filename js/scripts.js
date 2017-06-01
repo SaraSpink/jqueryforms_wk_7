@@ -6,7 +6,7 @@ $(document).ready(function() {
     var cityInput= $("input#city").val();
     var zipInput= $("input#zip").val();
 
-    $(".person1").text(person1Input.toUpperCase());
+    $(".person1").text(person1Input.toUpperCase()); 
     $(".address1").text(address1Input);
     $(".address2").text(address2Input);
     $(".city").text(cityInput);
